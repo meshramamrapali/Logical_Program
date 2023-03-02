@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2cdf254-affe-4013-b06b-6109e962f53b" name="Changes" comment="ADDED : Simulate StopWatch Program">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUnit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +59,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JUnit" />
+        <item itemvalue="Application.JUnit" />
         <item itemvalue="Application.JUnit" />
       </list>
     </recent_temporary>
