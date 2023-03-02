@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677750960973</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ADDED : Monthly Payment">
+      <created>1677754313884</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677754313884</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,6 +125,7 @@
     <MESSAGE value="ADDED : Reverse Number" />
     <MESSAGE value="ADDED : Simulate StopWatch Program" />
     <MESSAGE value="ADDED : Day Of Week" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED : Day Of Week" />
+    <MESSAGE value="ADDED : Monthly Payment" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : Monthly Payment" />
   </component>
 </project>

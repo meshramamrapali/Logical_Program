@@ -4,18 +4,27 @@ public class JUnit {
 
     public static void main(String[] args) {
 
-        Scanner s = new Scanner(System.in);
+        int dec_num, quot, i=1, j;
+        int bin_num[] = new int[100];
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter Principal Amount : ");
-        double principal = scan.nextDouble();
-        System.out.print("Enter Rate of Interest : ");
-        double rate = scan.nextDouble();
-        rate = (rate / 100) / 12;
-        System.out.print("Enter Time period in years : ");
-        int time = scan.nextInt();
-        time = time * 12;
-        double p = (principal * rate) / (1 - Math.pow(1 + rate, -time));
-        //
-        System.out.println("Payment: " + p);
+
+        System.out.print("Input a Decimal Number : ");
+        dec_num = scan.nextInt();
+
+        quot = dec_num;
+
+        while(quot != 0)
+        {
+            bin_num[i++] = quot%2;
+            quot = quot/2;
+        }
+
+        System.out.print("Binary number is: ");
+        for(j=i-1; j>0; j--)
+        {
+            System.out.print(bin_num[j]);
+        }
+        System.out.print("\n");
     }
 }
+
