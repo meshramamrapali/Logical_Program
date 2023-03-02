@@ -1,18 +1,30 @@
+import java.util.Scanner;
+
 public class LogicalProgram {
+
+    static double start = 0, stop = 0;
+
+    static void startTime() {
+        start = System.currentTimeMillis();
+        System.out.println("started at " + start);
+    }
+    static void stopTime() {
+        stop = System.currentTimeMillis();
+        System.out.println("stopped at " + stop);
+    }
+
+    static void elapsedTime() {
+        System.out.println("elapsed time is " + (stop - start) / 1000);
+    }
+
     public static void main(String[] args) {
-
-        char[] chars="123456789".toCharArray();
-        int max=100000000;
-        int random=(int) (Math.random()*max);
-        StringBuffer sb=new StringBuffer();
-
-        while (random>0)
-        {
-            sb.append(chars[random % chars.length]);
-            random /= chars.length;
-        }
-
-        String couponCode=sb.toString();
-        System.out.println("Coupon Code: "+couponCode);
+        Scanner s = new Scanner(System.in);
+        System.out.println("enter 1 to start");
+        s.next();
+        startTime();
+        System.out.println("enter to stop");
+        s.next();
+        stopTime();
+        elapsedTime();
     }
 }
