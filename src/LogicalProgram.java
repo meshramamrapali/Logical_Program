@@ -1,17 +1,28 @@
+import java.util.Scanner;
+
 public class LogicalProgram {
     public static void main(String[] args) {
 
-        int i = 1, n = 10, num1 = 0, num2 = 1;
-        System.out.println("Fibonacci Series");
+        long n, sum = 0;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        n = sc.nextLong();
+        int i = 1;
 
-        while (i <= n) {
-            System.out.print(num1 + " ");
+        while (i <= n / 2) {
+            if (n % i == 0) {
 
-            int num3 = num1 + num2;
-            num1 = num2;
-            num2 = num3;
+                sum = sum + i;
+            }
 
             i++;
         }
+
+        if (sum == n) {
+
+            System.out.println(n + " is a perfect number.");
+        } else
+
+            System.out.println(n + " is not a perfect number.");
     }
-    }
+}
