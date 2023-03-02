@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2cdf254-affe-4013-b06b-6109e962f53b" name="Changes" comment="ADDED : Reverse Number">
+    <list default="true" id="e2cdf254-affe-4013-b06b-6109e962f53b" name="Changes" comment="ADDED : Simulate StopWatch Program">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogicalProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicalProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JUnit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +37,8 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="LogicalProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogicalProgram" />
+    <configuration name="JUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUnit" />
       <module name="Logical_Program" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -46,6 +46,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JUnit" />
         <item itemvalue="Application.LogicalProgram" />
         <item itemvalue="Application.LogicalProgram" />
         <item itemvalue="Application.LogicalProgram" />
@@ -82,13 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677741305811</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ADDED : Simulate StopWatch Program">
+      <created>1677747228927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677747228927</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ADDED : Welcome Message" />
     <MESSAGE value="ADDED : Perfect Number" />
     <MESSAGE value="ADDED : Reverse Number" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED : Reverse Number" />
+    <MESSAGE value="ADDED : Simulate StopWatch Program" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : Simulate StopWatch Program" />
   </component>
 </project>
