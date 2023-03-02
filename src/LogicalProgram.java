@@ -1,13 +1,18 @@
 public class LogicalProgram {
     public static void main(String[] args) {
 
-        int num = 123456789, reverse = 0;
+        char[] chars="123456789".toCharArray();
+        int max=100000000;
+        int random=(int) (Math.random()*max);
+        StringBuffer sb=new StringBuffer();
 
-        for(;num != 0; num /= 10) {
-            int digit = num % 10;
-            reverse = reverse * 10 + digit;
+        while (random>0)
+        {
+            sb.append(chars[random % chars.length]);
+            random /= chars.length;
         }
 
-        System.out.println("Reverse Number: " + reverse);
+        String couponCode=sb.toString();
+        System.out.println("Coupon Code: "+couponCode);
     }
 }
