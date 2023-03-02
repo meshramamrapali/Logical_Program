@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2cdf254-affe-4013-b06b-6109e962f53b" name="Changes" comment="" />
+    <list default="true" id="e2cdf254-affe-4013-b06b-6109e962f53b" name="Changes" comment="ADDED : Welcome Message">
+      <change beforePath="$PROJECT_DIR$/src/LogicalProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalProgram.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MRT3tlrvOcfOqA9fTwdMk2t4bK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,6 +32,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="LogicalProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogicalProgram" />
+      <module name="Logical_Program" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LogicalProgram" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,6 +55,18 @@
       <option name="presentableId" value="Default" />
       <updated>1677729199106</updated>
     </task>
+    <task id="LOCAL-00001" summary="ADDED : Welcome Message">
+      <created>1677729447628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677729447628</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ADDED : Welcome Message" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED : Welcome Message" />
   </component>
 </project>
